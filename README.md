@@ -41,7 +41,7 @@ The Target Varible "Potability" is imbalance. It was decided to keep the imbalan
 
 We raised this question to check if it was possible to decrease the hardware costs of the hand device by using filters for the samples instead of Classications models.
 
-<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/ph.png" alt="PH" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/sulfate.png" alt="Sulfate" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/chloramines.png" alt="Chloramines" width="250" height="200">
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/ph.png?raw=true"" alt="PH" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/sulfate.png?raw=true"" alt="Sulfate" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/chloramines.png?raw=true"" alt="Chloramines" width="250" height="200">
 
 The Confidence Interval ranges for the potable and non potable datapoints overlap. It is not possible predict the potability of water based on filters. 
 
