@@ -35,7 +35,7 @@ Data Set found in Kaggle.
 
 The Target Varible "Potability" is imbalance. It was decided to keep the imbalance to better predict the non potable water. Non potable water could be a risk for the water consumer
 
-<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Percentage_Potable_VS__non_Potable.png?raw=true" alt="Test_VS_Prediction" width="500" height="300"> 
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Percentage_Potable_VS__non_Potable.png" alt="Test_VS_Prediction" width="500" height="300"> 
 
 ### Is it possible to predict the potability of water based on the confidence intervals of the features for potable and non potable datapoints? 
 
