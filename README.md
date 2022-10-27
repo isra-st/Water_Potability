@@ -67,7 +67,7 @@ The above scores have been chosen because we want to have a low number of False 
 
 <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Model_Selection_Recall.png?raw=true" alt="Recall" width="275" height="225"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Model_Selection_F1_Score.png?raw=true" alt="F1_Score" width="275" height="225">
 
-<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_Matrix_not_scaled_DecisionTreeClassifier().png?raw=true" alt="Decision_Tree_Not_Scaled" width="225" height="175"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixDecisionTreeClassifier().png?raw=true" alt="Decision_Tree" width="225" height="175">  <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixKNeighborsClassifier().png?raw=true" alt="KNN" width="225" height="175">
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_Matrix_not_scaled_DecisionTreeClassifier().png?raw=true" alt="Decision_Tree_Not_Scaled" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixDecisionTreeClassifier().png?raw=true" alt="Decision_Tree" width="250" height="200">  <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixKNeighborsClassifier().png?raw=true" alt="KNN" width="250" height="200">
 
 
 
