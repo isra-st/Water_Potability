@@ -14,7 +14,7 @@ Water For All is a global NGO specialized on granting access to potable water in
 ### Business Problem
 Water For All  wants to create a hand device to analyze the potability of water. 
 
-### 3. Dataset
+## 3. Dataset
 
 The dataset shape is:  10 Columns & 3276 rows
 
@@ -29,57 +29,36 @@ The dataset shape is:  10 Columns & 3276 rows
 Data Set found in Kaggle. 
 [Kaggle link](https://www.kaggle.com/datasets/adityakadiwal/water-potability?resource=download&select=water_potability.csv)
 
-### 4. Proccess
+## 4. Proccess
 
-#### 4.1 Exploratory Data Analysis
+### 4.1 Exploratory Data Analysis
 
+The Target Varible "Potability" is imbalance. It was decided to keep the imbalance to better predict the non potable water. Non potable water could be a risk for the water consumer
 
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Percentage_Potable_VS__non_Potable.png" alt="Test_VS_Prediction" width="500" height="300"> 
 
-# Tools Used
-* Pandas
-* Numpy
-* Matplotlib
-* Seaborn
-* Time
-* scikit-learn
-* statsmodels
-* Trello 
-* MIRO
+### Is it possible to predict the potability of water based on the confidence intervals of the features for potable and non potable datapoints? 
 
-# Resources
-London bike sharing dataset
-https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
+We raised this question to check if it was possible to decrease the hardware costs of the hand device by using filters for the samples instead of Classications models.
 
-# OLS regression model performance
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/ph.png" alt="PH" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/sulfate.png" alt="Sulfate" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/chloramines.png" alt="Chloramines" width="250" height="200">
 
-Train R^2: 0.628 - Train Adjusted R^2: 0.628
+The Confidence Interval ranges for the potable and non potable datapoints overlap. It is not possible predict the potability of water based on filters. 
 
-Test R^2: 0.655 - Test R^2: 0.582
+### 4.2 Modeling
 
-* Difference in R^2 between train and test 2.07%
-* Difference in R^2 between train and test is 4.6% which is less than 5%. 
+#### Scores 
 
-<img src="https://user-images.githubusercontent.com/73388089/114029525-e24b9100-9879-11eb-95af-583258825ca6.png" alt="Test_VS_Prediction" width="300" height="250"> <img src="https://user-images.githubusercontent.com/73388089/114029573-f099ad00-9879-11eb-8d49-5fcd804232ed.png" alt="Test_VS_Prediction" width="300" height="250">
+The Scores which guide the decisions 
+
+* Recall (sensitivity) is the ratio of correctly predicted positive (potable water) observations to the all observations in the actual class potable.
+
+* F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. 
 
 
 
-# Process
-1. Design: 
-  * I have created a MIRO board with the story mapping. https://miro.com/app/board/o9J_lRe3F5E=/
-  * I have created a Trello board with the epics of requirements needed to deliver. https://trello.com/b/S7aR17IA 
-2. Clean, manipulate and create the visualizations. 
-  * Exploratory Data Analysis
-  * Create visualizations
-  * Create Dummies
-  * Recursive Feature Selection (RFE)
-3. Create the linear regression model. 
-  * Validate the assumptions (Linearity, Autocorrelation, Sub-Normality, Normality, Multicollinearity)
-4. Analyze the model perforamnce
-5. Creating a Story Telling presentation 
-
-
-# Presentation
+### 5 Presentation
 To see the presentation, click in the below picture.
 
-[<img src="https://user-images.githubusercontent.com/73388089/114032866-0492de00-987d-11eb-9609-31cb62479a73.png" alt="Test_VS_Prediction" width="400" height="330">](https://www.kaggle.com/datasets/adityakadiwal/water-potability?resource=download&select=water_potability.csv)
+[<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/PPT%20_Picture.JPG" alt="Water_Potability Presentation" width="500" height="330">](https://docs.google.com/presentation/d/1fwm4fuR3SZ9PEzHP4Mbbs-JDGXuuadtX9ty0v6nTuyI/edit#slide=id.p)
 
