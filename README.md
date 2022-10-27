@@ -55,6 +55,18 @@ The Scores which guide the decisions
 
 * F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. 
 
+The above scores have been chosen because we want to have a low number of False Positives and high number of True Positives.
+
+#### Feature Engineering | Model Selection | Model Hypertunning | Loop
+
+* The Scaler used for the model selection was Standard Scaler 
+
+| Model 1| Model 2 | Model 3 | Model 4 | Model 5 | Model 6 | Model 7 |
+| :-----: | :---: | :---: | :-----: | :---: | :---: | :-----: |
+| Decision Tree Scaled | Decision Tree | KNN | SVM | Random Forest | Random Forest Scaled | Logistic Regression |
+
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixDecisionTreeClassifier().png" alt="Decision_Tree" width="300" height="250"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_Matrix_not_scaled_DecisionTreeClassifier().png" alt="Decision_Tree_Not_Scaled" width="300" height="250"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixKNeighborsClassifier().png" alt="KNN" width="300" height="250">
+
 
 
 ### 5 Presentation
