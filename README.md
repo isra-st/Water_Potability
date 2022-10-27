@@ -41,7 +41,7 @@ The Target Varible "Potability" is imbalance. It was decided to keep the imbalan
 
 We raised this question to check if it was possible to decrease the hardware costs of the hand device by using filters for the samples instead of Classications models.
 
-<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/ph.png" alt="PH" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/sulfate.png" alt="Sulfate" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/chloramines.png" alt="Chloramines" width="250" height="200">
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/ph.png?raw=true" alt="PH" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/sulfate.png?raw=true" alt="Sulfate" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/chloramines.png?raw=true" alt="Chloramines" width="250" height="200">
 
 The Confidence Interval ranges for the potable and non potable datapoints overlap. It is not possible predict the potability of water based on filters. 
 
@@ -55,10 +55,24 @@ The Scores which guide the decisions
 
 * F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. 
 
+The above scores have been chosen because we want to have a low number of False Positives and high number of True Positives.
+
+#### Feature Engineering | Model Selection | Model Hypertunning | Loop
+
+* The Scaler used for the model selection was Standard Scaler 
+
+| Model 1| Model 2 | Model 3 | Model 4 | Model 5 | Model 6 | Model 7 |
+| :-----: | :---: | :---: | :-----: | :---: | :---: | :-----: |
+| Decision Tree Scaled | Decision Tree | KNN | SVM | Random Forest | Random Forest Scaled | Logistic Regression |
+
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Model_Selection_Recall.png?raw=true" alt="Recall" width="275" height="225"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/Model_Selection_F1_Score.png?raw=true" alt="F1_Score" width="275" height="225">
+
+<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_Matrix_not_scaled_DecisionTreeClassifier().png?raw=true" alt="Decision_Tree_Not_Scaled" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixDecisionTreeClassifier().png?raw=true" alt="Decision_Tree" width="250" height="200">  <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixKNeighborsClassifier().png?raw=true" alt="KNN" width="250" height="200">
+
 
 
 ### 5 Presentation
 To see the presentation, click in the below picture.
 
-[<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/PPT%20_Picture.JPG" alt="Water_Potability Presentation" width="500" height="330">](https://docs.google.com/presentation/d/1fwm4fuR3SZ9PEzHP4Mbbs-JDGXuuadtX9ty0v6nTuyI/edit#slide=id.p)
+[<img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/PPT%20_Picture.JPG?raw=true" alt="Water_Potability Presentation" width="500" height="330">](https://docs.google.com/presentation/d/1fwm4fuR3SZ9PEzHP4Mbbs-JDGXuuadtX9ty0v6nTuyI/edit#slide=id.p)
 
