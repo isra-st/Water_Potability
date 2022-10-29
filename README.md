@@ -59,7 +59,7 @@ The above scores have been chosen because we want to have a low number of False 
 
 #### Feature Engineering | Model Selection | Model Hypertunning | Loop
 
-* The Scaler used for the model selection was Standard Scaler 
+* The Scaler used for the model selection was Standard Scaler.
 
 | Model 1| Model 2 | Model 3 | Model 4 | Model 5 | Model 6 | Model 7 |
 | :-----: | :---: | :---: | :-----: | :---: | :---: | :-----: |
