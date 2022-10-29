@@ -69,8 +69,13 @@ The above scores have been chosen because we want to have a low number of False 
 
 <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_Matrix_not_scaled_DecisionTreeClassifier().png?raw=true" alt="Decision_Tree_Not_Scaled" width="250" height="200"> <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixDecisionTreeClassifier().png?raw=true" alt="Decision_Tree" width="250" height="200">  <img src="https://github.com/isra-st/Water_Potability/blob/master/Viz/confusion_MatrixKNeighborsClassifier().png?raw=true" alt="KNN" width="250" height="200">
 
-### Decision Tree Scaled got the best scores for Recall and F1 Score. 
-### The confusion Matrixs for Decision Tree Scaled and Decision Tree not Scaled were very similar. 
+#### Conclussions Model Selection: 
+
+* Decision Tree Scaled got the best scores for Recall and F1 Score. 
+* The confusion Matrixs for Decision Tree Scaled and Decision Tree not Scaled are very similar.
+* KNN confusion Matrix gives a low number of False Posivite that was one of the model goals but the True Positives are too low. It will not be usefull for the Hand Device
+
+#### Decision Tree Scaled is the best choice at this stage. 
 
 ### 5 Presentation
 To see the presentation, click in the below picture.
